@@ -1,0 +1,13 @@
+.page-header {
+  padding: 30px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  background: url("../images/logo.svg") no-repeat 0 0;
+  width: 150px;
+  height: 30px;
+  background-size: cover;
+  display: inline-block;
+}

@@ -1,0 +1,20 @@
+.idea
+
+
+# Ignore cache
+/.sass-cache
+/.cache
+
+node_modules
+
+build
+
+# Ignore .DS_store file
+.DS_Store
+
+# Leave this here or else Go fails
+# because it does git clean and loses untracked files
+# files in .gitignore aren't affected
+
+bin
+package-lock.json
