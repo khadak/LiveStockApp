@@ -1,6 +1,6 @@
 'use strict';
 
-const webSocketURL= "wss://stocks.mnet.website"
+const webSocketURL= "ws://stocks.mnet.website"
 
 class liveStockApp {
 

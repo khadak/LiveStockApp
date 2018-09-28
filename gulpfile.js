@@ -19,7 +19,6 @@ var
     }
 ;
 
-
 // image processing
 gulp.task('images', function() {
     var out = folder.src + 'images/';
@@ -38,10 +37,6 @@ gulp.task('css', ['images'], function() {
         autoprefixer({ browsers: ['last 2 versions', '> 2%'] }),
         mqpacker
     ];
-
-    if (!devBuild) {
-        postCssOpts.push(cssnano);
-    }
 
     return gulp.src(folder.src + 'scss/main.scss')
         .pipe(sass({
